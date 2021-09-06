@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+
+body{
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 16px;
+	background: url(images/pattern-background-desktop.svg) transparent no-repeat;
+  	background-size: 100%;
+  	background-color: hsl(225, 100%, 94%);
+	background-size: 1440px;
+}
+main{
+	margin-top: 70px;
+  	margin-bottom: 40px;
+  	margin-left: 50%;
+}
+.container{
+	border-radius: 20px;
+	text-align: center;
+	display: block;
+	background: #fff;
+	margin: 40px;
+	width: 450px;
+}
+.second-main{
+	margin: 35px;
+}
+.main-img{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 100%;
+}
+#main-head{
+	font-weight: bold;
+	color:hsl(223, 47%, 23%);
+}
+.para{
+	color: hsl(224, 23%, 55%);
+	line-height: 30px;
+	font-weight: 500;
+	margin: 39px;
+  	margin-bottom: 20px;
+}
+
+.payment-methods{
+	border-radius: 10px;
+  	margin-bottom: 30px;
+  	padding: 20px;
+  	background-color: hsl(225, 100%, 98%);
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+}
+.flex{
+	display: flex;
+  	align-items: center;
+  	gap: 20px;
+}
+#spn{
+	font-weight: normal;
+	color: hsl(223, 47%, 23%);
+	margin: 2px;
+}
+#price{
+	font-weight: normal;
+	color: hsl(224, 23%, 55%); 
+	margin-left: 0px;
+}
+.payment-methods a{
+	font-weight: bold;
+	color: hsl(245, 75%, 52%);
+}
+.payment-methods a:hover{
+	font-weight: normal;
+	text-decoration: none;
+}
+.btn{
+	padding: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+	margin: 30px;
+	width: 87%;
+	border-radius: 20px;
+	font-size: 17px;
+}
+.payment{
+	color: hsl(225, 100%, 94%);
+	background-color: hsl(245, 75%, 52%);
+	display: block;
+	border: none;
+}
+.cancel{
+	color: hsl(224, 23%, 55%);
+}
+
+
+.attribution{
+	font-size: 14px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+.attribution a:hover {
+	color: blue;
+}
